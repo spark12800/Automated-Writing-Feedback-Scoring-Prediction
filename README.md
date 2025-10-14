@@ -1,8 +1,5 @@
 # AWF: Automated IELTS Essay Scoring & Feedback
 
-**Website:** [spark12800.github.io/projects/awf](https://spark12800.github.io/projects/awf)  
-**Repository:** [spark12800/awf](https://github.com/spark12800/awf)
-
 ---
 
 ## Overview
@@ -23,6 +20,8 @@ The **Automated Written Feedback (AWF)** project develops a system that can both
 - **Leakage Audit:** Exact + near-duplicate removal and prompt-level isolation.  
 - **Metrics:** QWK, Macro-F1, top-1 accuracy.  
 
+---
+
 ## Datasets
 
 **1. IELTS Writing Task 2 Evaluation (Hugging Face)**  
@@ -33,7 +32,7 @@ The **Automated Written Feedback (AWF)** project develops a system that can both
 **2. Cambridge & Handwritten Essay Data (Private)**  
 - Includes **authentic IELTS past papers (Volumes 14–19)** from **Cambridge English Assessment**,  
   containing certified examiner-scored essays and detailed feedback that were **handwritten and digitized using OCR**.  
-- 📎 [View dataset on Amazon]([https://huggingface.co/datasets/chillies/IELTS-writing-task-2-evaluation](https://www.amazon.com/-/ko/dp/1009275186/ref=sr_1_3?dib=eyJ2IjoiMSJ9.5w6OHPxv7lQp1LRdCxxPzcdeRh_YZxILrXuQvx_hGDofyhnNIYTxngolu2dZjITI1zmhCi7XNiowxKL55WA10GEdajwDoxL3-OJ1y1f1masvPDSa886DodM8eVllC3HixLuUYErBFJnZIDkGf5N3ffAsv5hShd9MPvPes460QpSXydV7zhZjHhdXeXySzzXjUEbzq4-cVr8MbZJMKbIXSPyC_fEMjiM3Qhy1hFAn_uQ.jWzTyhlHvt2nhjtCQwE9182L5gqzlVz0_gclWaUJzvQ&dib_tag=se&keywords=cambridge+ielts&qid=1760427151&s=books&sr=1-3)
+- 📎 [View dataset on Amazon]([https://huggingface.co/datasets/chillies/IELTS-writing-task-2-evaluation](https://www.amazon.com/-/ko/dp/1009275186/ref=sr_1_3?dib=eyJ2IjoiMSJ9.5w6OHPxv7lQp1LRdCxxPzcdeRh_YZxILrXuQvx_hGDofyhnNIYTxngolu2dZjITI1zmhCi7XNiowxKL55WA10GEdajwDoxL3-OJ1y1f1masvPDSa886DodM8eVllC3HixLuUYErBFJnZIDkGf5N3ffAsv5hShd9MPvPes460QpSXydV7zhZjHhdXeXySzzXjUEbzq4-cVr8MbZJMKbIXSPyC_fEMjiM3Qhy1hFAn_uQ.jWzTyhlHvt2nhjtCQwE9182L5gqzlVz0_gclWaUJzvQ&dib_tag=se&keywords=cambridge+ielts&qid=1760427151&s=books&sr=1-3))
 
 ---
 
