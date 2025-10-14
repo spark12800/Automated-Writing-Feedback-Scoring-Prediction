@@ -1,6 +1,5 @@
 # AWF: Automated IELTS Essay Scoring & Feedback
 
-**Author:** Sieun Park  
 **Website:** [spark12800.github.io/projects/awf](https://spark12800.github.io/projects/awf)  
 **Repository:** [spark12800/awf](https://github.com/spark12800/awf)
 
