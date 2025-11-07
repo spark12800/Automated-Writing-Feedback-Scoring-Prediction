@@ -1,11 +1,11 @@
-# Automated IELTS Essay Scoring & Feedback
+# Automated English Essay Scoring & Feedback
 
 ---
 
 ## Overview
 
 The **Automated Written Feedback (AWF)** project develops a system that can both  
-**predict IELTS Writing Task 2 band scores** and **generate level-adaptive feedback** aligned with each learner’s current proficiency.
+**predict English Writing (IELTS Task 2) band scores** and **generate level-adaptive feedback** aligned with each learner’s current proficiency.
 
 *Integrity note:*  
 - Early experiments (“pre-audit”) included duplicate and near-duplicate essays across splits, which inflated metrics.  
