@@ -18,7 +18,7 @@ The **Automated Written Feedback (AWF)** project develops a system that can both
 - **Band Score Prediction:** Transformer fine-tuning using LoRA and CORAL loss for ordinal regression.  
 - **Feedback Generation:** Mini-RAG retrieval for rubric-aligned, level-sensitive comments.  
 - **Leakage Audit:** Exact + near-duplicate removal and prompt-level isolation.  
-- **Metrics:** QWK, Macro-F1, top-1 accuracy.  
+- **Metrics:** QWK, Macro-F1, top-1 accuracy, RMSE, MAE.  
 
 ---
 
