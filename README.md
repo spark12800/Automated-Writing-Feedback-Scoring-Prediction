@@ -22,6 +22,12 @@ The **Automated Written Feedback (AWF)** project develops a system that can both
 
 ---
 
+## Base Model
+
+- DeBERTa-v3-base (86M parameters)
+
+- Chosen for its strong performance on sentence-level and document-level understanding via disentangled attention and enhanced position encoding, which are well-suited to long-form essay text.
+
 ## Datasets
 
 **1. IELTS Writing Task 2 Evaluation (Hugging Face)**  
