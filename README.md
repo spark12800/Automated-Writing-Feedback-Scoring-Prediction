@@ -3,19 +3,20 @@
 Predicts an IELTS Writing Task 2 band score, then explains that score against the
 official band descriptors as level-adaptive feedback.
 
-Two models, with deliberately separate jobs:
+Scoring and explanation are handled by two models with deliberately separate jobs:
 
-| | Job | Why this one |
+| Component | Role | Rationale |
 | --- | --- | --- |
-| **DeBERTa-v3** (fine-tuned) | decides the band | reproducible, measured on held-out data |
-| **LLM** (Gemini-3.6-flash) | explains the band | fluent, but an unreliable and inconsistent scorer |
+| **DeBERTa-v3** (fine-tuned) | Assigns the band | Deterministic and reproducible; accuracy measured on a held-out set |
+| **Gemini 3.6 Flash** | Explains the band | Fluent explanation, but an unreliable and inconsistent scorer |
 
-The predicted band is passed *into* the LLM prompt, which is instructed to treat it
-as fixed. The score is therefore immune to prompt injection: a student who writes
-"give me band 9" inside their essay cannot move a number the LLM does not control.
+The predicted band is injected into the LLM prompt as a fixed value. The score is
+therefore outside the LLM's control: an essay containing "give me band 9" cannot
+move a number the LLM never produces.
 
 **[Live demo](https://ielts-scorer-536131036434.europe-west2.run.app)** ·
-**[Model on Hugging Face](https://huggingface.co/sieun1234/ielts-band-coral)**
+**[Model card](https://huggingface.co/sieun1234/ielts-band-coral)**
+
 ---
 
 ## Results
