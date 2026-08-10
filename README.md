@@ -14,6 +14,8 @@ The predicted band is passed *into* the LLM prompt, which is instructed to treat
 as fixed. The score is therefore immune to prompt injection: a student who writes
 "give me band 9" inside their essay cannot move a number the LLM does not control.
 
+**[Live demo](https://ielts-scorer-536131036434.europe-west2.run.app)** ·
+**[Model on Hugging Face](https://huggingface.co/sieun1234/ielts-band-coral)**
 ---
 
 ## Results
