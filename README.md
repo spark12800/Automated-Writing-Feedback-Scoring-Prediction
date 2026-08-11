@@ -1,4 +1,4 @@
-# Automated Written Feedback (AWF)
+# Automated Scoring & Written Feedback (ASWF)
 
 Predicts an IELTS Writing Task 2 band score, then explains that score against the
 official band descriptors as level-adaptive feedback.
@@ -176,16 +176,6 @@ that were then immediately overwritten by the fine-tuned ones.
 
 Model artifacts (~740 MB) are not in the repository; `service/EXPORT_FROM_COLAB.md`
 explains how to obtain them.
-
----
-
-## Status
-
-Done: training pipeline, leakage audit, calibrated scorer, REST API tested
-locally, feedback generation.
-
-Not done: no public deployment yet; the container has not been built; per-criterion
-scores are not modelled.
 
 ---
 
